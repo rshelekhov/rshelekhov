@@ -5,7 +5,7 @@ I’m a product designer who has decided to transition into backend development.
 -	🔭 Focused on mastering backend development and deepening my Go skills
 -	🐘 Actively studying PostgreSQL and data processing
 -	🛠️ Learning CI/CD to enhance development efficiency
--	🐳 Mastering Docker for service management and deployment
+-	🐳 Gaining expertise in Docker for service management and deployment
 
 ⚡ Fun fact: As a designer, I always aimed for simplicity and clarity in interfaces, and now these principles guide me in creating efficient and clean code, as much as my current experience allows.
 
