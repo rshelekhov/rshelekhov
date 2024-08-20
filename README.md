@@ -1,5 +1,14 @@
 ## Hi there 👋
 
+I’m a product designer who has decided to transition into backend development. I’m focusing on Go, databases, and optimizing server logic. My goal is to apply the knowledge I’ve gained by working on real projects and solving complex problems.
+
+-	🔭 Focused on mastering backend development and deepening my Go skills
+-	🐘 Actively studying PostgreSQL and data processing
+-	🛠️ Learning CI/CD to enhance development efficiency
+-	🐳 Mastering Docker for service management and deployment
+
+⚡ Fun fact: As a designer, I always aimed for simplicity and clarity in interfaces, and now these principles guide me in creating efficient and clean code, as much as my current experience allows.
+
 <!--
 **rshelekhov/rshelekhov** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
