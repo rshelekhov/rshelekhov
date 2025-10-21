@@ -17,7 +17,7 @@ var me = struct {
 	role:       "Go Developer",
 	languages:  []string{"en_US", "ru_RU"},
 	code:       []string{"Go"},
-  technologies: map[string][]string{
+	technologies: map[string][]string{
 		"api":           {"REST", "gRPC", "Swagger/OpenAPI"},
 		"routers":       {"go-chi", "std router"},
 		"databases":     {"PostgreSQL", "MongoDB", "Redis", "S3"},
