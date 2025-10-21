@@ -22,7 +22,7 @@ var me = struct {
 		"routers":       {"go-chi", "std router"},
 		"databases":     {"PostgreSQL", "MongoDB", "Redis", "S3"},
 		"databaseTools": {"sqlc", "pgx", "go-migrate"},
-		"devOps":        {"Docker", "Docker Compose", "Kubernetes", "GitHub Actions"},
+		"devOps":        {"Docker", "Docker Compose", "GitHub Actions"},
 		"observability": {"Prometheus", "Grafana", "Loki", "Tempo", "OpenTelemetry"},
 		"testing":       {"testify", "mockery"},
 	},
