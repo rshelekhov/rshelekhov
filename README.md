@@ -1,11 +1,36 @@
 ## Hi there 👋
 
-I’m a UX/UI designer who has decided to transition into backend development. I’m focusing on Go, databases, and optimizing server logic. My goal is to apply the knowledge I’ve gained by working on real projects and solving complex problems.
+```go
+package main
 
--	🔭 Focused on mastering backend development and deepening my Go skills
--	🐘 Actively studying PostgreSQL and data processing
--	🛠️ Learning CI/CD to enhance development efficiency
--	🐳 Gaining expertise in Docker for service management and deployment
+var me = struct {
+	name         string
+	role         string
+	languages    []string
+	code         []string
+	technologies map[string][]string
+	architecture []string
+	currentFocus string
+	funFact      string
+}{
+	name:       "Backend Software Engineer",
+	role:       "Go Developer",
+	languages:  []string{"en_US", "ru_RU"},
+	code:       []string{"Go"},
+  technologies: map[string][]string{
+		"api":           {"REST", "gRPC", "Swagger/OpenAPI"},
+		"routers":       {"go-chi", "std router"},
+		"databases":     {"PostgreSQL", "MongoDB", "Redis", "S3"},
+		"databaseTools": {"sqlc", "pgx", "go-migrate"},
+		"devOps":        {"Docker", "Docker Compose", "Kubernetes", "GitHub Actions"},
+		"observability": {"Prometheus", "Grafana", "Loki", "Tempo", "OpenTelemetry"},
+		"testing":       {"testify", "mockery"},
+	},
+	architecture: []string{"Clean Architecture", "Microservices"},
+	currentFocus: "Building scalable production-ready Go systems with comprehensive observability",
+	funFact:      "Ex-Product Designer turned Backend Developer",
+}
+```
 
 <!--
 **rshelekhov/rshelekhov** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
