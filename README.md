@@ -14,9 +14,9 @@ var me = struct {
 	funFact      string
 }{
 	name:       "Backend Software Engineer",
-	role:       "Go Developer",
+	role:       "Backend Developer",
 	languages:  []string{"en_US", "ru_RU"},
-	code:       []string{"Go"},
+	code:       []string{"Go, TypeScript"},
 	technologies: map[string][]string{
 		"api":           {"REST", "gRPC", "Swagger/OpenAPI"},
 		"routers":       {"go-chi", "std router"},
