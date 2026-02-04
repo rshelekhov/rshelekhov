@@ -1,35 +1,34 @@
 ## Hi there 👋
 
-```go
-package main
-
-var me = struct {
-	name         string
-	role         string
-	languages    []string
-	code         []string
-	technologies map[string][]string
-	architecture []string
-	currentFocus string
-	funFact      string
-}{
-	name:       "Backend Software Engineer",
-	role:       "Backend Developer",
-	languages:  []string{"en_US", "ru_RU"},
-	code:       []string{"Go, TypeScript"},
-	technologies: map[string][]string{
-		"api":           {"REST", "gRPC", "Swagger/OpenAPI"},
-		"routers":       {"go-chi", "std router"},
-		"databases":     {"PostgreSQL", "MongoDB", "Redis", "S3"},
-		"databaseTools": {"sqlc", "pgx", "go-migrate"},
-		"devOps":        {"Docker", "Docker Compose", "GitHub Actions"},
-		"observability": {"Prometheus", "Grafana", "Loki", "Tempo", "OpenTelemetry"},
-		"testing":       {"testify", "mockery"},
-	},
-	architecture: []string{"Clean Architecture", "Microservices"},
-	currentFocus: "Building scalable production-ready Go systems with comprehensive observability",
-	funFact:      "Ex-Product Designer turned Backend Developer",
-}
+```typescript
+const me = {
+  role: "Backend Software Engineer",
+  languages: ["en_US", "ru_RU"],
+  code: ["Go", "TypeScript"],
+  tech: {
+    common: {
+      api: ["REST", "gRPC", "OpenAPI"],
+      db: ["PostgreSQL", "MongoDB", "Redis", "S3"],
+      devOps: ["Docker", "GitHub Actions"],
+      arch: ["Clean Architecture", "Microservices"],
+    },
+    go: {
+      router: ["go-chi", "std router"],
+      dbTools: ["sqlc", "pgx", "go-migrate"],
+      obs: ["Prometheus", "Grafana", "Loki", "Tempo", "OpenTelemetry"],
+      test: ["testify", "mockery"],
+    },
+    ts: {
+      runtime: ["Bun"],
+      framework: ["Hono"],
+      validation: ["Zod"],
+      orm: ["Prisma", "Drizzle"],
+    },
+  },
+  currentFocus:
+    "Building scalable backend systems with strong observability and clean architecture",
+  funFact: "Ex-Product Designer turned Backend Developer",
+};
 ```
 
 <!--
