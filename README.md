@@ -22,7 +22,7 @@ const me = {
       runtime: ["Bun"],
       framework: ["Hono"],
       validation: ["Zod"],
-      orm: ["Prisma", "Drizzle"],
+      orm: ["Prisma"],
     },
   },
   currentFocus:
