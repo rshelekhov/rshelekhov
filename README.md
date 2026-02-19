@@ -2,7 +2,7 @@
 
 ```typescript
 const me = {
-  role: "Backend Software Engineer",
+  role: "Product Engineer",
   languages: ["en_US", "ru_RU"],
   code: ["Go", "TypeScript"],
   tech: {
